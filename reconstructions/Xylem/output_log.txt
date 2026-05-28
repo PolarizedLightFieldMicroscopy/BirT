@@ -1,0 +1,416 @@
+
+Initializing a Reconstructor, using computing device cpu
+Omitting rays based on pixels with zero retardance.
+For raytracing, using computing device cpu
+Raytracing time in seconds: 4.54
+Preparing rays for all rays at once...
+Prepared geometry for all rays at once.
+No radiometry provided for filtering rays.
+Saving rays...
+Rays saved in 0 seconds to ../reconstructions/Xylem/2026-04-26_05-07-14_Mac_XylemACrop2_2026-04-25-ItDef300_OptInfDef_ItDef500/config_parameters/rays.pkl
+Setting up the voxel mask...
+Identifying the voxels that are reached by the rays out of the 366025 voxels.
+Number of voxels reached by the rays: 148,339
+	Included in nonzero retardance pixels: 148,339
+	Included in zero retardance pixels: 106
+		For 5 or more rays: 0
+Masking out voxels except for 148339 voxels. First, at most, 20 voxels are tensor([1840, 1841, 1842, 1843, 1844, 1845, 1846, 1847, 1848, 1849, 1850, 1851,
+        1852, 1853, 1854, 1855, 1856, 1857, 1858, 1859], dtype=torch.int32)
+Voxel mask created in 4.76 seconds
+Using retardance and azimuth images for data-fidelity term.
+Reconstructor initialized in 12.16 seconds
+
+Deleting unnecessary attributes to save memory...
+	Deleted nonzero pixels dict
+	Deleted ray valid indices by ray num
+	Deleted mask from rays class
+	Deleted radiometry
+	Deleted volume initial guess
+Beginning reconstruction...
+Setting up optimizer and scheduler...
+Using optimizer: Nadam
+Using optimizer: Nadam
+Starting iterations...
+Learning rates changed at iteration 11:
+Iteration 10: 1.00e-01, 1.00e-04 -> Iteration 11: 9.76e-02, 1.00e-04
+Learning rates changed at iteration 12:
+Iteration 11: 9.76e-02, 1.00e-04 -> Iteration 12: 9.70e-02, 1.00e-04
+Learning rates changed at iteration 13:
+Iteration 12: 9.70e-02, 1.00e-04 -> Iteration 13: 9.65e-02, 1.00e-04
+Learning rates changed at iteration 14:
+Iteration 13: 9.65e-02, 1.00e-04 -> Iteration 14: 9.59e-02, 1.00e-04
+Learning rates changed at iteration 15:
+Iteration 14: 9.59e-02, 1.00e-04 -> Iteration 15: 9.52e-02, 8.00e-05
+Learning rates changed at iteration 16:
+Iteration 15: 9.52e-02, 8.00e-05 -> Iteration 16: 9.46e-02, 8.00e-05
+Learning rates changed at iteration 17:
+Iteration 16: 9.46e-02, 8.00e-05 -> Iteration 17: 9.38e-02, 8.00e-05
+Learning rates changed at iteration 18:
+Iteration 17: 9.38e-02, 8.00e-05 -> Iteration 18: 9.30e-02, 8.00e-05
+Learning rates changed at iteration 19:
+Iteration 18: 9.30e-02, 8.00e-05 -> Iteration 19: 9.22e-02, 8.00e-05
+Learning rates changed at iteration 20:
+Iteration 19: 9.22e-02, 8.00e-05 -> Iteration 20: 9.14e-02, 8.00e-05
+Learning rates changed at iteration 21:
+Iteration 20: 9.14e-02, 8.00e-05 -> Iteration 21: 9.05e-02, 8.00e-05
+Learning rates changed at iteration 22:
+Iteration 21: 9.05e-02, 8.00e-05 -> Iteration 22: 8.95e-02, 8.00e-05
+Learning rates changed at iteration 23:
+Iteration 22: 8.95e-02, 8.00e-05 -> Iteration 23: 8.85e-02, 8.00e-05
+Learning rates changed at iteration 24:
+Iteration 23: 8.85e-02, 8.00e-05 -> Iteration 24: 8.75e-02, 8.00e-05
+Learning rates changed at iteration 25:
+Iteration 24: 8.75e-02, 8.00e-05 -> Iteration 25: 8.65e-02, 8.00e-05
+Learning rates changed at iteration 26:
+Iteration 25: 8.65e-02, 8.00e-05 -> Iteration 26: 8.54e-02, 8.00e-05
+Learning rates changed at iteration 27:
+Iteration 26: 8.54e-02, 8.00e-05 -> Iteration 27: 8.42e-02, 8.00e-05
+Learning rates changed at iteration 28:
+Iteration 27: 8.42e-02, 8.00e-05 -> Iteration 28: 8.31e-02, 8.00e-05
+Learning rates changed at iteration 29:
+Iteration 28: 8.31e-02, 8.00e-05 -> Iteration 29: 8.19e-02, 8.00e-05
+Learning rates changed at iteration 30:
+Iteration 29: 8.19e-02, 8.00e-05 -> Iteration 30: 8.07e-02, 8.00e-05
+Learning rates changed at iteration 31:
+Iteration 30: 8.07e-02, 8.00e-05 -> Iteration 31: 7.94e-02, 8.00e-05
+Learning rates changed at iteration 32:
+Iteration 31: 7.94e-02, 8.00e-05 -> Iteration 32: 7.81e-02, 8.00e-05
+Learning rates changed at iteration 33:
+Iteration 32: 7.81e-02, 8.00e-05 -> Iteration 33: 7.68e-02, 8.00e-05
+Learning rates changed at iteration 34:
+Iteration 33: 7.68e-02, 8.00e-05 -> Iteration 34: 7.55e-02, 8.00e-05
+Learning rates changed at iteration 35:
+Iteration 34: 7.55e-02, 8.00e-05 -> Iteration 35: 7.41e-02, 8.00e-05
+Learning rates changed at iteration 36:
+Iteration 35: 7.41e-02, 8.00e-05 -> Iteration 36: 7.27e-02, 8.00e-05
+Learning rates changed at iteration 37:
+Iteration 36: 7.27e-02, 8.00e-05 -> Iteration 37: 7.13e-02, 8.00e-05
+Learning rates changed at iteration 38:
+Iteration 37: 7.13e-02, 8.00e-05 -> Iteration 38: 6.99e-02, 8.00e-05
+Learning rates changed at iteration 39:
+Iteration 38: 6.99e-02, 8.00e-05 -> Iteration 39: 6.84e-02, 8.00e-05
+Learning rates changed at iteration 40:
+Iteration 39: 6.84e-02, 8.00e-05 -> Iteration 40: 6.70e-02, 8.00e-05
+Learning rates changed at iteration 41:
+Iteration 40: 6.70e-02, 8.00e-05 -> Iteration 41: 6.55e-02, 8.00e-05
+Learning rates changed at iteration 42:
+Iteration 41: 6.55e-02, 8.00e-05 -> Iteration 42: 6.40e-02, 8.00e-05
+Learning rates changed at iteration 43:
+Iteration 42: 6.40e-02, 8.00e-05 -> Iteration 43: 6.25e-02, 8.00e-05
+Learning rates changed at iteration 44:
+Iteration 43: 6.25e-02, 8.00e-05 -> Iteration 44: 6.09e-02, 8.00e-05
+Learning rates changed at iteration 45:
+Iteration 44: 6.09e-02, 8.00e-05 -> Iteration 45: 5.94e-02, 8.00e-05
+Learning rates changed at iteration 46:
+Iteration 45: 5.94e-02, 8.00e-05 -> Iteration 46: 5.79e-02, 8.00e-05
+Learning rates changed at iteration 47:
+Iteration 46: 5.79e-02, 8.00e-05 -> Iteration 47: 5.63e-02, 8.00e-05
+Learning rates changed at iteration 48:
+Iteration 47: 5.63e-02, 8.00e-05 -> Iteration 48: 5.48e-02, 8.00e-05
+Learning rates changed at iteration 49:
+Iteration 48: 5.48e-02, 8.00e-05 -> Iteration 49: 5.32e-02, 8.00e-05
+Learning rates changed at iteration 50:
+Iteration 49: 5.32e-02, 8.00e-05 -> Iteration 50: 5.16e-02, 8.00e-05
+Learning rates changed at iteration 51:
+Iteration 50: 5.16e-02, 8.00e-05 -> Iteration 51: 5.01e-02, 8.00e-05
+Learning rates changed at iteration 52:
+Iteration 51: 5.01e-02, 8.00e-05 -> Iteration 52: 4.85e-02, 8.00e-05
+Learning rates changed at iteration 53:
+Iteration 52: 4.85e-02, 8.00e-05 -> Iteration 53: 4.69e-02, 8.00e-05
+Learning rates changed at iteration 54:
+Iteration 53: 4.69e-02, 8.00e-05 -> Iteration 54: 4.53e-02, 8.00e-05
+Learning rates changed at iteration 55:
+Iteration 54: 4.53e-02, 8.00e-05 -> Iteration 55: 4.38e-02, 8.00e-05
+Learning rates changed at iteration 56:
+Iteration 55: 4.38e-02, 8.00e-05 -> Iteration 56: 4.22e-02, 8.00e-05
+Learning rates changed at iteration 57:
+Iteration 56: 4.22e-02, 8.00e-05 -> Iteration 57: 4.07e-02, 8.00e-05
+Learning rates changed at iteration 58:
+Iteration 57: 4.07e-02, 8.00e-05 -> Iteration 58: 3.92e-02, 8.00e-05
+Learning rates changed at iteration 59:
+Iteration 58: 3.92e-02, 8.00e-05 -> Iteration 59: 3.76e-02, 8.00e-05
+Learning rates changed at iteration 60:
+Iteration 59: 3.76e-02, 8.00e-05 -> Iteration 60: 3.61e-02, 8.00e-05
+Learning rates changed at iteration 61:
+Iteration 60: 3.61e-02, 8.00e-05 -> Iteration 61: 3.46e-02, 8.00e-05
+Learning rates changed at iteration 62:
+Iteration 61: 3.46e-02, 8.00e-05 -> Iteration 62: 3.31e-02, 8.00e-05
+Learning rates changed at iteration 63:
+Iteration 62: 3.31e-02, 8.00e-05 -> Iteration 63: 3.17e-02, 8.00e-05
+Learning rates changed at iteration 64:
+Iteration 63: 3.17e-02, 8.00e-05 -> Iteration 64: 3.02e-02, 8.00e-05
+Learning rates changed at iteration 65:
+Iteration 64: 3.02e-02, 8.00e-05 -> Iteration 65: 2.88e-02, 8.00e-05
+Learning rates changed at iteration 66:
+Iteration 65: 2.88e-02, 8.00e-05 -> Iteration 66: 2.74e-02, 8.00e-05
+Learning rates changed at iteration 67:
+Iteration 66: 2.74e-02, 8.00e-05 -> Iteration 67: 2.60e-02, 8.00e-05
+Learning rates changed at iteration 68:
+Iteration 67: 2.60e-02, 8.00e-05 -> Iteration 68: 2.46e-02, 8.00e-05
+Learning rates changed at iteration 69:
+Iteration 68: 2.46e-02, 8.00e-05 -> Iteration 69: 2.33e-02, 8.00e-05
+Learning rates changed at iteration 70:
+Iteration 69: 2.33e-02, 8.00e-05 -> Iteration 70: 2.20e-02, 8.00e-05
+Learning rates changed at iteration 71:
+Iteration 70: 2.20e-02, 8.00e-05 -> Iteration 71: 2.07e-02, 8.00e-05
+Learning rates changed at iteration 72:
+Iteration 71: 2.07e-02, 8.00e-05 -> Iteration 72: 1.94e-02, 8.00e-05
+Learning rates changed at iteration 73:
+Iteration 72: 1.94e-02, 8.00e-05 -> Iteration 73: 1.82e-02, 8.00e-05
+Learning rates changed at iteration 74:
+Iteration 73: 1.82e-02, 8.00e-05 -> Iteration 74: 1.70e-02, 8.00e-05
+Learning rates changed at iteration 75:
+Iteration 74: 1.70e-02, 8.00e-05 -> Iteration 75: 1.59e-02, 8.00e-05
+Learning rates changed at iteration 76:
+Iteration 75: 1.59e-02, 8.00e-05 -> Iteration 76: 1.47e-02, 8.00e-05
+Learning rates changed at iteration 77:
+Iteration 76: 1.47e-02, 8.00e-05 -> Iteration 77: 1.36e-02, 8.00e-05
+Learning rates changed at iteration 78:
+Iteration 77: 1.36e-02, 8.00e-05 -> Iteration 78: 1.26e-02, 8.00e-05
+Learning rates changed at iteration 79:
+Iteration 78: 1.26e-02, 8.00e-05 -> Iteration 79: 1.16e-02, 8.00e-05
+Learning rates changed at iteration 80:
+Iteration 79: 1.16e-02, 8.00e-05 -> Iteration 80: 1.06e-02, 8.00e-05
+Learning rates changed at iteration 81:
+Iteration 80: 1.06e-02, 8.00e-05 -> Iteration 81: 9.64e-03, 8.00e-05
+Learning rates changed at iteration 82:
+Iteration 81: 9.64e-03, 8.00e-05 -> Iteration 82: 8.74e-03, 8.00e-05
+Learning rates changed at iteration 83:
+Iteration 82: 8.74e-03, 8.00e-05 -> Iteration 83: 7.88e-03, 8.00e-05
+Learning rates changed at iteration 84:
+Iteration 83: 7.88e-03, 8.00e-05 -> Iteration 84: 7.06e-03, 8.00e-05
+Learning rates changed at iteration 85:
+Iteration 84: 7.06e-03, 8.00e-05 -> Iteration 85: 6.28e-03, 8.00e-05
+Learning rates changed at iteration 86:
+Iteration 85: 6.28e-03, 8.00e-05 -> Iteration 86: 5.54e-03, 8.00e-05
+Learning rates changed at iteration 87:
+Iteration 86: 5.54e-03, 8.00e-05 -> Iteration 87: 4.85e-03, 8.00e-05
+Learning rates changed at iteration 88:
+Iteration 87: 4.85e-03, 8.00e-05 -> Iteration 88: 4.21e-03, 8.00e-05
+Learning rates changed at iteration 89:
+Iteration 88: 4.21e-03, 8.00e-05 -> Iteration 89: 3.61e-03, 8.00e-05
+Learning rates changed at iteration 90:
+Iteration 89: 3.61e-03, 8.00e-05 -> Iteration 90: 3.05e-03, 8.00e-05
+Learning rates changed at iteration 91:
+Iteration 90: 3.05e-03, 8.00e-05 -> Iteration 91: 2.54e-03, 8.00e-05
+Learning rates changed at iteration 92:
+Iteration 91: 2.54e-03, 8.00e-05 -> Iteration 92: 2.08e-03, 8.00e-05
+Learning rates changed at iteration 93:
+Iteration 92: 2.08e-03, 8.00e-05 -> Iteration 93: 1.67e-03, 8.00e-05
+Learning rates changed at iteration 94:
+Iteration 93: 1.67e-03, 8.00e-05 -> Iteration 94: 1.30e-03, 8.00e-05
+Learning rates changed at iteration 95:
+Iteration 94: 1.30e-03, 8.00e-05 -> Iteration 95: 9.85e-04, 8.00e-05
+Learning rates changed at iteration 96:
+Iteration 95: 9.85e-04, 8.00e-05 -> Iteration 96: 7.15e-04, 8.00e-05
+Learning rates changed at iteration 97:
+Iteration 96: 7.15e-04, 8.00e-05 -> Iteration 97: 4.94e-04, 8.00e-05
+Learning rates changed at iteration 98:
+Iteration 97: 4.94e-04, 8.00e-05 -> Iteration 98: 3.22e-04, 8.00e-05
+Learning rates changed at iteration 99:
+Iteration 98: 3.22e-04, 8.00e-05 -> Iteration 99: 1.99e-04, 8.00e-05
+Learning rates changed at iteration 100:
+Iteration 99: 1.99e-04, 8.00e-05 -> Iteration 100: 1.25e-04, 8.00e-05
+Learning rates changed at iteration 101:
+Iteration 100: 1.25e-04, 8.00e-05 -> Iteration 101: 1.00e-01, 8.00e-05
+Saving volume to h5 file: ../reconstructions/Xylem/2026-04-26_05-07-14_Mac_XylemACrop2_2026-04-25-ItDef300_OptInfDef_ItDef500/results_in_progress/volume_iter_0101.h5
+Learning rates changed at iteration 102:
+Iteration 101: 1.00e-01, 8.00e-05 -> Iteration 102: 1.00e-01, 8.00e-05
+Learning rates changed at iteration 103:
+Iteration 102: 1.00e-01, 8.00e-05 -> Iteration 103: 1.00e-01, 8.00e-05
+Learning rates changed at iteration 104:
+Iteration 103: 1.00e-01, 8.00e-05 -> Iteration 104: 9.99e-02, 8.00e-05
+Learning rates changed at iteration 105:
+Iteration 104: 9.99e-02, 8.00e-05 -> Iteration 105: 9.99e-02, 8.00e-05
+Learning rates changed at iteration 106:
+Iteration 105: 9.99e-02, 8.00e-05 -> Iteration 106: 9.98e-02, 8.00e-05
+Learning rates changed at iteration 107:
+Iteration 106: 9.98e-02, 8.00e-05 -> Iteration 107: 9.98e-02, 8.00e-05
+Learning rates changed at iteration 108:
+Iteration 107: 9.98e-02, 8.00e-05 -> Iteration 108: 9.97e-02, 8.00e-05
+Learning rates changed at iteration 109:
+Iteration 108: 9.97e-02, 8.00e-05 -> Iteration 109: 9.96e-02, 6.40e-05
+Learning rates changed at iteration 110:
+Iteration 109: 9.96e-02, 6.40e-05 -> Iteration 110: 9.95e-02, 6.40e-05
+Learning rates changed at iteration 111:
+Iteration 110: 9.95e-02, 6.40e-05 -> Iteration 111: 9.94e-02, 6.40e-05
+Learning rates changed at iteration 112:
+Iteration 111: 9.94e-02, 6.40e-05 -> Iteration 112: 9.93e-02, 6.40e-05
+Learning rates changed at iteration 113:
+Iteration 112: 9.93e-02, 6.40e-05 -> Iteration 113: 9.91e-02, 6.40e-05
+Learning rates changed at iteration 114:
+Iteration 113: 9.91e-02, 6.40e-05 -> Iteration 114: 9.90e-02, 6.40e-05
+Learning rates changed at iteration 115:
+Iteration 114: 9.90e-02, 6.40e-05 -> Iteration 115: 9.88e-02, 5.12e-05
+Learning rates changed at iteration 116:
+Iteration 115: 9.88e-02, 5.12e-05 -> Iteration 116: 9.86e-02, 5.12e-05
+Learning rates changed at iteration 117:
+Iteration 116: 9.86e-02, 5.12e-05 -> Iteration 117: 9.84e-02, 5.12e-05
+Learning rates changed at iteration 118:
+Iteration 117: 9.84e-02, 5.12e-05 -> Iteration 118: 9.82e-02, 5.12e-05
+Learning rates changed at iteration 119:
+Iteration 118: 9.82e-02, 5.12e-05 -> Iteration 119: 9.80e-02, 5.12e-05
+Learning rates changed at iteration 120:
+Iteration 119: 9.80e-02, 5.12e-05 -> Iteration 120: 9.78e-02, 5.12e-05
+Learning rates changed at iteration 121:
+Iteration 120: 9.78e-02, 5.12e-05 -> Iteration 121: 9.76e-02, 4.10e-05
+Learning rates changed at iteration 122:
+Iteration 121: 9.76e-02, 4.10e-05 -> Iteration 122: 9.73e-02, 4.10e-05
+Learning rates changed at iteration 123:
+Iteration 122: 9.73e-02, 4.10e-05 -> Iteration 123: 9.70e-02, 4.10e-05
+Learning rates changed at iteration 124:
+Iteration 123: 9.70e-02, 4.10e-05 -> Iteration 124: 9.68e-02, 4.10e-05
+Learning rates changed at iteration 125:
+Iteration 124: 9.68e-02, 4.10e-05 -> Iteration 125: 9.65e-02, 4.10e-05
+Learning rates changed at iteration 126:
+Iteration 125: 9.65e-02, 4.10e-05 -> Iteration 126: 9.62e-02, 4.10e-05
+Learning rates changed at iteration 127:
+Iteration 126: 9.62e-02, 4.10e-05 -> Iteration 127: 9.59e-02, 3.28e-05
+Learning rates changed at iteration 128:
+Iteration 127: 9.59e-02, 3.28e-05 -> Iteration 128: 9.56e-02, 3.28e-05
+Learning rates changed at iteration 129:
+Iteration 128: 9.56e-02, 3.28e-05 -> Iteration 129: 9.52e-02, 3.28e-05
+Learning rates changed at iteration 130:
+Iteration 129: 9.52e-02, 3.28e-05 -> Iteration 130: 9.49e-02, 3.28e-05
+Learning rates changed at iteration 131:
+Iteration 130: 9.49e-02, 3.28e-05 -> Iteration 131: 9.46e-02, 3.28e-05
+Learning rates changed at iteration 132:
+Iteration 131: 9.46e-02, 3.28e-05 -> Iteration 132: 9.42e-02, 3.28e-05
+Learning rates changed at iteration 133:
+Iteration 132: 9.42e-02, 3.28e-05 -> Iteration 133: 9.38e-02, 2.62e-05
+Learning rates changed at iteration 134:
+Iteration 133: 9.38e-02, 2.62e-05 -> Iteration 134: 9.34e-02, 2.62e-05
+Learning rates changed at iteration 135:
+Iteration 134: 9.34e-02, 2.62e-05 -> Iteration 135: 9.30e-02, 2.62e-05
+Learning rates changed at iteration 136:
+Iteration 135: 9.30e-02, 2.62e-05 -> Iteration 136: 9.26e-02, 2.62e-05
+Learning rates changed at iteration 137:
+Iteration 136: 9.26e-02, 2.62e-05 -> Iteration 137: 9.22e-02, 2.62e-05
+Learning rates changed at iteration 138:
+Iteration 137: 9.22e-02, 2.62e-05 -> Iteration 138: 9.18e-02, 2.62e-05
+Learning rates changed at iteration 139:
+Iteration 138: 9.18e-02, 2.62e-05 -> Iteration 139: 9.14e-02, 2.10e-05
+Learning rates changed at iteration 140:
+Iteration 139: 9.14e-02, 2.10e-05 -> Iteration 140: 9.09e-02, 2.10e-05
+Learning rates changed at iteration 141:
+Iteration 140: 9.09e-02, 2.10e-05 -> Iteration 141: 9.05e-02, 2.10e-05
+Learning rates changed at iteration 142:
+Iteration 141: 9.05e-02, 2.10e-05 -> Iteration 142: 9.00e-02, 2.10e-05
+Learning rates changed at iteration 143:
+Iteration 142: 9.00e-02, 2.10e-05 -> Iteration 143: 8.95e-02, 2.10e-05
+Learning rates changed at iteration 144:
+Iteration 143: 8.95e-02, 2.10e-05 -> Iteration 144: 8.90e-02, 2.10e-05
+Learning rates changed at iteration 145:
+Iteration 144: 8.90e-02, 2.10e-05 -> Iteration 145: 8.85e-02, 1.68e-05
+Learning rates changed at iteration 146:
+Iteration 145: 8.85e-02, 1.68e-05 -> Iteration 146: 8.80e-02, 1.68e-05
+Learning rates changed at iteration 147:
+Iteration 146: 8.80e-02, 1.68e-05 -> Iteration 147: 8.75e-02, 1.68e-05
+Learning rates changed at iteration 148:
+Iteration 147: 8.75e-02, 1.68e-05 -> Iteration 148: 8.70e-02, 1.68e-05
+Learning rates changed at iteration 149:
+Iteration 148: 8.70e-02, 1.68e-05 -> Iteration 149: 8.65e-02, 1.68e-05
+Learning rates changed at iteration 150:
+Iteration 149: 8.65e-02, 1.68e-05 -> Iteration 150: 8.59e-02, 1.68e-05
+Learning rates changed at iteration 151:
+Iteration 150: 8.59e-02, 1.68e-05 -> Iteration 151: 8.54e-02, 1.34e-05
+Learning rates changed at iteration 152:
+Iteration 151: 8.54e-02, 1.34e-05 -> Iteration 152: 8.48e-02, 1.34e-05
+Learning rates changed at iteration 153:
+Iteration 152: 8.48e-02, 1.34e-05 -> Iteration 153: 8.42e-02, 1.34e-05
+Learning rates changed at iteration 154:
+Iteration 153: 8.42e-02, 1.34e-05 -> Iteration 154: 8.37e-02, 1.34e-05
+Learning rates changed at iteration 155:
+Iteration 154: 8.37e-02, 1.34e-05 -> Iteration 155: 8.31e-02, 1.34e-05
+Learning rates changed at iteration 156:
+Iteration 155: 8.31e-02, 1.34e-05 -> Iteration 156: 8.25e-02, 1.34e-05
+Learning rates changed at iteration 157:
+Iteration 156: 8.25e-02, 1.34e-05 -> Iteration 157: 8.19e-02, 1.07e-05
+Learning rates changed at iteration 158:
+Iteration 157: 8.19e-02, 1.07e-05 -> Iteration 158: 8.13e-02, 1.07e-05
+Learning rates changed at iteration 159:
+Iteration 158: 8.13e-02, 1.07e-05 -> Iteration 159: 8.07e-02, 1.07e-05
+Learning rates changed at iteration 160:
+Iteration 159: 8.07e-02, 1.07e-05 -> Iteration 160: 8.00e-02, 1.07e-05
+Learning rates changed at iteration 161:
+Iteration 160: 8.00e-02, 1.07e-05 -> Iteration 161: 7.94e-02, 1.07e-05
+Learning rates changed at iteration 162:
+Iteration 161: 7.94e-02, 1.07e-05 -> Iteration 162: 7.88e-02, 1.07e-05
+Learning rates changed at iteration 163:
+Iteration 162: 7.88e-02, 1.07e-05 -> Iteration 163: 7.81e-02, 8.59e-06
+Learning rates changed at iteration 164:
+Iteration 163: 7.81e-02, 8.59e-06 -> Iteration 164: 7.75e-02, 8.59e-06
+Learning rates changed at iteration 165:
+Iteration 164: 7.75e-02, 8.59e-06 -> Iteration 165: 7.68e-02, 8.59e-06
+Learning rates changed at iteration 166:
+Iteration 165: 7.68e-02, 8.59e-06 -> Iteration 166: 7.61e-02, 8.59e-06
+Learning rates changed at iteration 167:
+Iteration 166: 7.61e-02, 8.59e-06 -> Iteration 167: 7.55e-02, 8.59e-06
+Learning rates changed at iteration 168:
+Iteration 167: 7.55e-02, 8.59e-06 -> Iteration 168: 7.48e-02, 8.59e-06
+Learning rates changed at iteration 169:
+Iteration 168: 7.48e-02, 8.59e-06 -> Iteration 169: 7.41e-02, 6.87e-06
+Learning rates changed at iteration 170:
+Iteration 169: 7.41e-02, 6.87e-06 -> Iteration 170: 7.34e-02, 6.87e-06
+Learning rates changed at iteration 171:
+Iteration 170: 7.34e-02, 6.87e-06 -> Iteration 171: 7.27e-02, 6.87e-06
+Learning rates changed at iteration 172:
+Iteration 171: 7.27e-02, 6.87e-06 -> Iteration 172: 7.20e-02, 6.87e-06
+Learning rates changed at iteration 173:
+Iteration 172: 7.20e-02, 6.87e-06 -> Iteration 173: 7.13e-02, 6.87e-06
+Learning rates changed at iteration 174:
+Iteration 173: 7.13e-02, 6.87e-06 -> Iteration 174: 7.06e-02, 6.87e-06
+Learning rates changed at iteration 175:
+Iteration 174: 7.06e-02, 6.87e-06 -> Iteration 175: 6.99e-02, 5.50e-06
+Learning rates changed at iteration 176:
+Iteration 175: 6.99e-02, 5.50e-06 -> Iteration 176: 6.92e-02, 5.50e-06
+Learning rates changed at iteration 177:
+Iteration 176: 6.92e-02, 5.50e-06 -> Iteration 177: 6.84e-02, 5.50e-06
+Learning rates changed at iteration 178:
+Iteration 177: 6.84e-02, 5.50e-06 -> Iteration 178: 6.77e-02, 5.50e-06
+Learning rates changed at iteration 179:
+Iteration 178: 6.77e-02, 5.50e-06 -> Iteration 179: 6.70e-02, 5.50e-06
+Learning rates changed at iteration 180:
+Iteration 179: 6.70e-02, 5.50e-06 -> Iteration 180: 6.62e-02, 5.50e-06
+Learning rates changed at iteration 181:
+Iteration 180: 6.62e-02, 5.50e-06 -> Iteration 181: 6.55e-02, 4.40e-06
+Learning rates changed at iteration 182:
+Iteration 181: 6.55e-02, 4.40e-06 -> Iteration 182: 6.47e-02, 4.40e-06
+Learning rates changed at iteration 183:
+Iteration 182: 6.47e-02, 4.40e-06 -> Iteration 183: 6.40e-02, 4.40e-06
+Learning rates changed at iteration 184:
+Iteration 183: 6.40e-02, 4.40e-06 -> Iteration 184: 6.32e-02, 4.40e-06
+Learning rates changed at iteration 185:
+Iteration 184: 6.32e-02, 4.40e-06 -> Iteration 185: 6.25e-02, 4.40e-06
+Learning rates changed at iteration 186:
+Iteration 185: 6.25e-02, 4.40e-06 -> Iteration 186: 6.17e-02, 4.40e-06
+Learning rates changed at iteration 187:
+Iteration 186: 6.17e-02, 4.40e-06 -> Iteration 187: 6.09e-02, 3.52e-06
+Learning rates changed at iteration 188:
+Iteration 187: 6.09e-02, 3.52e-06 -> Iteration 188: 6.02e-02, 3.52e-06
+Learning rates changed at iteration 189:
+Iteration 188: 6.02e-02, 3.52e-06 -> Iteration 189: 5.94e-02, 3.52e-06
+Learning rates changed at iteration 190:
+Iteration 189: 5.94e-02, 3.52e-06 -> Iteration 190: 5.86e-02, 3.52e-06
+Learning rates changed at iteration 191:
+Iteration 190: 5.86e-02, 3.52e-06 -> Iteration 191: 5.79e-02, 3.52e-06
+Learning rates changed at iteration 192:
+Iteration 191: 5.79e-02, 3.52e-06 -> Iteration 192: 5.71e-02, 3.52e-06
+Learning rates changed at iteration 193:
+Iteration 192: 5.71e-02, 3.52e-06 -> Iteration 193: 5.63e-02, 2.81e-06
+Learning rates changed at iteration 194:
+Iteration 193: 5.63e-02, 2.81e-06 -> Iteration 194: 5.55e-02, 2.81e-06
+Learning rates changed at iteration 195:
+Iteration 194: 5.55e-02, 2.81e-06 -> Iteration 195: 5.48e-02, 2.81e-06
+Learning rates changed at iteration 196:
+Iteration 195: 5.48e-02, 2.81e-06 -> Iteration 196: 5.40e-02, 2.81e-06
+Learning rates changed at iteration 197:
+Iteration 196: 5.40e-02, 2.81e-06 -> Iteration 197: 5.32e-02, 2.81e-06
+Learning rates changed at iteration 198:
+Iteration 197: 5.32e-02, 2.81e-06 -> Iteration 198: 5.24e-02, 2.81e-06
+Learning rates changed at iteration 199:
+Iteration 198: 5.24e-02, 2.81e-06 -> Iteration 199: 5.16e-02, 2.25e-06
+Learning rates changed at iteration 200:
+Iteration 199: 5.16e-02, 2.25e-06 -> Iteration 200: 5.08e-02, 2.25e-06
+Saving volume to h5 file: ../reconstructions/Xylem/2026-04-26_05-07-14_Mac_XylemACrop2_2026-04-25-ItDef300_OptInfDef_ItDef500/volume.h5
+Saved the final volume estimation to ../reconstructions/Xylem/2026-04-26_05-07-14_Mac_XylemACrop2_2026-04-25-ItDef300_OptInfDef_ItDef500/volume.h5
